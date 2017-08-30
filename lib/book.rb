@@ -6,11 +6,16 @@ class Book
   @@all = []
   # ALL = []
 
+  def self.all
+    @@all
+  end
+
 
   def initialize(title = nil, authors = nil)
     puts 'we\'re making books!'
     @title = title
     @authors = authors
+    @@all << self
   end
 
   # def title=(title)
