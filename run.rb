@@ -4,6 +4,7 @@ require 'pry'
 
 gravitys_rainbow = Book.new('gravitys rainbow', ['thomas pynchon'])
 gravitys_rainbow.author_names
-Pry.start
+
+binding.pry
 
 'k bye'
